@@ -1,0 +1,19 @@
+# Internal planning / spec docs — kept local, not published
+docs/
+
+# Obsidian
+.obsidian/
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor backups / swap
+*~
+*.swp
+*.swo
+.*.sw?
+
+# Link-conversion tooling artifacts
+.wikilink-report.txt
