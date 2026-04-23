@@ -28,17 +28,6 @@ You're welcome to fork the approach; the Memphis data is specific to my location
 - [Part 90 vs Part 95](01-foundations/part90-vs-part95.md) — certification nuance + my accepted tradeoff
 - [RX-only before license](01-foundations/rx-only-before-license.md) — what I can legally do pre-Tech
 
-### `glossary/` — quick-reference terms
-[glossary](glossary.md) for the indexed list. 15 individual notes covering: codeplug, zone, channel, simplex, duplex, repeater, CTCSS, DCS, talkgroup, timeslot, color code, callsign, band plan, tone squelch, Part 90/95.
-
-### `05-memphis-setup/` — my local RF landscape
-- [Sources & verification methodology](05-memphis-setup/sources-and-verification.md) — where data comes from, refresh cadence, `#verified` tier system
-- [Local ham repeaters](05-memphis-setup/local-ham-repeaters.md) — 14 repeaters across 2 m and 70 cm within ~40 mi of Memphis *(all `#unverified` pending Phase 4)*
-- [Memphis DMR repeaters](05-memphis-setup/memphis-dmr-repeaters.md) — 5 DMR machines + common talkgroups
-- [GMRS channels (Memphis)](05-memphis-setup/gmrs-channels-memphis.md) — full 30-channel table + WROX887 local repeater
-- [NOAA Weather (Memphis)](05-memphis-setup/noaa-weather-memphis.md) — KWJ76 on 162.475 MHz + all 7 NWR channels
-- [Simplex calling frequencies](05-memphis-setup/simplex-calling.md) — 146.520 / 446.000 + ARRL band-plan sub-bands
-
 ### `02-radio/` — the DM-32UV itself
 - [DM-32UV overview](02-radio/dm32uv-overview.md) — specs, what's in the box
 - [Buttons and knobs](02-radio/buttons-and-knobs.md) — every physical control + common gotchas
@@ -53,4 +42,18 @@ You're welcome to fork the approach; the Memphis data is specific to my location
 - [Read / write the radio](03-cps-software/read-write-radio.md) — **safe procedure** — read before write, backup always, versioned saves
 - [Firmware updates](03-cps-software/firmware-updates.md) — **default: don't** — rules if you must
 
+### `04-codeplug-model/` — Summary of the complete codeplug.
+- [Codeplug Overview](04-codeplug-model/codeplug-overview.md) — Summary of the complete codeplug.
+- [Codeplug Zone Layout & Naming Conventions](04-codeplug-model/codeplug-zones-and-naming.md) — How channels are organized on the radio
+- [Programming Walkthrough](04-codeplug-model/programming-walkthrough) — Step-by-step instructions for entering the Memphis codeplug into CPS
 
+### `05-memphis-setup/` — my local RF landscape
+- [Sources & verification methodology](05-memphis-setup/sources-and-verification.md) — where data comes from, refresh cadence, `#verified` tier system
+- [Local ham repeaters](05-memphis-setup/local-ham-repeaters.md) — 14 repeaters across 2 m and 70 cm within ~40 mi of Memphis *(all `#unverified` pending Phase 4)*
+- [Memphis DMR repeaters](05-memphis-setup/memphis-dmr-repeaters.md) — 5 DMR machines + common talkgroups
+- [GMRS channels (Memphis)](05-memphis-setup/gmrs-channels-memphis.md) — full 30-channel table + WROX887 local repeater
+- [NOAA Weather (Memphis)](05-memphis-setup/noaa-weather-memphis.md) — KWJ76 on 162.475 MHz + all 7 NWR channels
+- [Simplex calling frequencies](05-memphis-setup/simplex-calling.md) — 146.520 / 446.000 + ARRL band-plan sub-bands
+
+### `glossary/` — quick-reference terms
+[glossary](glossary.md) for the indexed list. 15 individual notes covering: codeplug, zone, channel, simplex, duplex, repeater, CTCSS, DCS, talkgroup, timeslot, color code, callsign, band plan, tone squelch, Part 90/95.
