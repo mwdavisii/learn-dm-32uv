@@ -53,24 +53,4 @@ You're welcome to fork the approach; the Memphis data is specific to my location
 - [Read / write the radio](03-cps-software/read-write-radio.md) — **safe procedure** — read before write, backup always, versioned saves
 - [Firmware updates](03-cps-software/firmware-updates.md) — **default: don't** — rules if you must
 
-### Coming in Phase 3 — codeplug build
-- `04-codeplug-model/` — channels, zones, contacts, talkgroups, scan lists, naming conventions
-- `codeplug/` — first real `.rdt` + human-editable CSVs + flash procedure
 
-## Phase status
-
-| Phase | Scope | Status |
-|---|---|---|
-| 0 | Vault scaffold + placeholders | ✅ |
-| 1 | Foundations (6 notes) + glossary (15 terms) + Memphis data (6 notes) + quickstart | ✅ *(this commit)* |
-| 2 | Radio hardware + CPS software walkthroughs | 🚧 drafts complete — awaiting your Windows CPS install + first read |
-| 3 | Codeplug model + first flash | ⏳ |
-| 4 | Verification pass — promote `#unverified` → `#verified` | ⏳ |
-| 5 | Maintenance playbook — quarterly refresh | ⏳ |
-
-## How to use this vault
-
-- **Read linear** for a structured course: `01-foundations/` → `05-memphis-setup/` → Phase 2 when it exists.
-- **Read random-access** when you want to look something up: use the glossary, or search Obsidian for the term.
-- **Run the quickstart** as soon as the radio arrives — it's self-contained.
-- **Edit freely.** Everything here is my own notes; correct errors, add context, make it yours.
