@@ -19,18 +19,6 @@ Practically:
 - On **Part 90** (commercial): legal only if the operator holds a Part-90 license for the specific channels — not you.
 - On **Part 95E** (GMRS): the rules require equipment to be type-accepted specifically for Part 95E. Your radio isn't.
 
-## What that means for you
-
-You have a valid **GMRS license**, but the **radio** isn't certified for GMRS. The rule technically requires both: a valid license *and* Part 95E-certified equipment.
-
-Using a Part 90 radio on GMRS is a rule violation even with a valid GMRS license. This is widely done in practice — the radios are cheap, capable, and legally indistinguishable on the air from certified ones — but the rule exists.
-
-## Enforcement reality
-
-- FCC enforcement on casual GMRS non-compliance is **effectively zero** for personal/family use without interference complaints.
-- High-power mobile use, interference with public-safety or licensed users, or commercial activity is where enforcement actually happens.
-- The realistic "punishment" for a single user running a Part-90 HT on family GMRS is: nothing. But the rule still exists.
-
 ## The compliant alternative (if you ever want it)
 
 If strict compliance matters later (e.g., you join a GMRS repeater club with tight rules, or you want to run 50 W mobile):
